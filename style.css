@@ -1,0 +1,408 @@
+/* CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+
+
+
+/* desktop */
+@media (min-width: 1200px) and (max-width: 4000px) {
+
+
+    .main {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 0px 124px;
+    }
+
+
+
+
+
+    .blok_1 {
+        width: 60%;
+    }
+
+    h1 {
+        padding-top: 91px;
+        padding-left: 124px;
+
+
+
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 101.385%;
+    }
+
+    .paraqraf_1 {
+        color: #000;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+
+
+
+
+
+    .blok_2 {
+        margin: auto;
+    }
+
+
+    .oval_1 {
+        width: 366px;
+        height: 59px;
+
+        border-radius: 50%;
+        background: #EFEFEF;
+    }
+
+    .img_1 {
+        width: 314px;
+        height: 315px;
+        margin-left: 20px;
+        margin-bottom: -50px;
+    }
+
+
+
+
+
+
+    .blok_3 {
+
+        width: 30%;
+    }
+
+    .oval_2 {
+        margin-left: 30px;
+        margin-top: -20px;
+
+        width: 189px;
+        height: 32px;
+
+        border-radius: 50%;
+        background: #EFEFEF;
+    }
+
+    .img_2 {
+        width: 232px;
+        height: 203px;
+    }
+
+
+
+
+
+
+
+    .blok_4 {
+        width: 70%;
+
+        display: flex;
+        flex-flow: row;
+    }
+
+
+    .delenie {
+        width: 33%;
+
+    }
+
+
+
+    h6 {
+        padding: auto;
+        margin: auto;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+    }
+
+    .delenie>p {
+        width: 150px;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+
+
+}
+
+
+
+
+
+/* tablet */
+@media (min-width: 700px) and (max-width: 1200px) {
+
+
+    .main {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 20px 72px;
+    }
+
+
+
+
+
+    .blok_1 {
+        width: 60%;
+    }
+
+    h1 {
+        padding-top: 56px;
+        padding-left: 72px;
+
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 101.385%;
+    }
+
+    .paraqraf_1 {
+        color: #000;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+
+
+
+
+
+    .blok_2 {
+        margin: auto;
+    }
+
+
+    .oval_1 {
+        width: 211.975px;
+        height: 34.171px;
+
+        border-radius: 50%;
+        background: #EFEFEF;
+    }
+
+    .img_1 {
+        width: 181.858px;
+        height: 182.438px;
+
+        margin-left: 15px;
+        margin-bottom: -35px;
+    }
+
+
+
+
+
+
+    .blok_3 {
+
+        display: none;
+    }
+
+
+
+
+
+
+
+    .blok_4 {
+        width: 60%;
+
+        display: flex;
+        flex-flow: row;
+    }
+
+
+    .delenie {
+        width: 33%;
+
+    }
+
+
+
+    h6 {
+        padding: auto;
+        margin: auto;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+    }
+
+    .delenie>p {
+        width: 86.875px;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+    }
+
+
+
+}
+
+
+
+
+
+
+/* mobile */
+@media (min-width: 200px) and (max-width: 701px) {
+
+
+
+    .main {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding: 0px 36px;
+    }
+
+
+
+
+
+
+
+    h1 {
+        padding-top: 30px;
+        padding-left: 36px;
+
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 101.385%;
+    }
+
+    .paraqraf_1 {
+        width: 100%;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+
+    }
+
+
+
+
+
+
+    .blok_2 {
+        margin: auto;
+    }
+
+
+    .oval_1 {
+        width: 170.546px;
+        height: 27.492px;
+
+        border-radius: 50%;
+        background: #EFEFEF;
+    }
+
+    .img_1 {
+        width: 146.315px;
+        height: 146.781px;
+
+        margin-left: 15px;
+        margin-bottom: -35px;
+    }
+
+
+
+
+
+
+    .blok_3 {
+
+        display: none;
+    }
+
+
+
+
+    .blok_4 {
+
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+
+    .delenie {
+        padding-right: 50px;
+        margin-bottom: 0px;
+
+
+    }
+
+
+
+    h6 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+
+    }
+
+    .delenie>p {
+        margin-top: 0px;
+        width: 83px;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+
+    }
+
+
+}
